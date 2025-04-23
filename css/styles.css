@@ -4263,8 +4263,8 @@ img.u-pull-left {
 
 .skill-bar-fill {
     height: 100%;
-    background-color: #0077ff;
-    width: 0%;
+    background-color: cyan;
+    width: 0%; /* start from 0% */
     border-radius: 5px;
-    transition: width 1s ease-in-out;
+    transition: width 1s ease-in-out; /* smooth transition */
 }
